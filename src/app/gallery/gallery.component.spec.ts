@@ -1,25 +1,25 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LandingComponent } from './landing.component';
+import { GalleryComponent } from './gallery.component';
 
-describe('LandingComponent', () => {
-  let component: LandingComponent;
-  let fixture: ComponentFixture<LandingComponent>;
+describe('GalleryComponent', () => {
+  let component: GalleryComponent;
+  let fixture: ComponentFixture<GalleryComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LandingComponent ]
+      declarations: [ GalleryComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LandingComponent);
+    fixture = TestBed.createComponent(GalleryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should be created', () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

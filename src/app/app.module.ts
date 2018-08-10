@@ -7,22 +7,30 @@ import { AppRoutingModule } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component';
-import { LandingComponent } from './landing/landing.component';
 import { ProfileComponent } from './profile/profile.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
 import { HomeModule } from './home/home.module';
+import { AboutComponent } from './about/about.component';
+import { CoachingComponent } from './coaching/coaching.component';
+import { SalesComponent } from './sales/sales.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SignupComponent,
-    LandingComponent,
     ProfileComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    CoachingComponent,
+    SalesComponent,
+    GalleryComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
