@@ -4,15 +4,19 @@ import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
-import { ProfileComponent } from './profile/profile.component';
-import { SignupComponent } from './signup/signup.component';
-import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
+import { AboutComponent } from './about/about.component';
+import { CoachingComponent } from './coaching/coaching.component';
+import { SalesComponent } from './sales/sales.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
-    { path: 'user-profile',     component: ProfileComponent },
-    { path: 'signup',           component: SignupComponent },
-    { path: 'nucleoicons',      component: NucleoiconsComponent },
+    { path: 'about',            component: AboutComponent },
+    { path: 'coaching',         component: CoachingComponent },
+    { path: 'sales',            component: SalesComponent},
+    { path: 'gallery',          component: GalleryComponent},
+    { path: 'contact',          component: ContactComponent},
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
