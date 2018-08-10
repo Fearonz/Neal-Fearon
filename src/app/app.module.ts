@@ -9,15 +9,15 @@ import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component';
 import { ProfileComponent } from './profile/profile.component';
 import { HomeComponent } from './home/home.component';
-import { NavbarComponent } from './shared/navbar/navbar.component';
-import { FooterComponent } from './shared/footer/footer.component';
-
-import { HomeModule } from './home/home.module';
 import { AboutComponent } from './about/about.component';
 import { CoachingComponent } from './coaching/coaching.component';
 import { SalesComponent } from './sales/sales.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import { FooterComponent } from './shared/footer/footer.component';
+
+import { HomeModule } from './home/home.module';
 
 @NgModule({
   declarations: [
